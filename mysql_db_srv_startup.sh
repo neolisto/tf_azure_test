@@ -22,11 +22,11 @@ apt upgrade -y
 
 #installation of mysql client
 echo 'installing mysql-client'
-apt install -f -y mysql-client=5.7.35-1ubuntu18.04
+apt install -f -y mysql-client
 
 #installation of mysql server
 echo 'installing mysql-server'
-DEBIAN_FRONTEND=noninteractive apt install -y mysql-server=5.7.35-1ubuntu18.04
+DEBIAN_FRONTEND=noninteractive apt install -y mysql-server
 echo 'mysql installed'
 
 #creating database
